@@ -377,6 +377,12 @@ section {
     .project-container {
         width: 250px;
       }
+      .home-img img{
+        margin-top: 5rem;
+      }
+      .home{
+        margin-bottom: 5rem;
+      }
   }
 
 @media (max-width: 480px) {
