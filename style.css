@@ -22,10 +22,12 @@
   }
   
   .logo {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
-    color: #fff;
     text-decoration: none;
+    background: linear-gradient(to right, #ff5fca, #cafe7b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .nav-bar a {
@@ -69,8 +71,8 @@
     line-height: 1.5;
 }
 .home-img img {
-    max-width: 400px;
-    min-height: 400px;
+    max-width: 500px;
+    min-height: 500px;
     border-radius: 50%;
     border: 3px solid #0ef;
     box-shadow: 0 0 20px rgba(0, 238, 255, 0.7);
@@ -125,15 +127,36 @@
     0 0 25px cyan,0 0 50px cyan,
     0 0 100px cyan,0 0 200px cyan
 }
+.resume{
+  display: inline-block;
+  padding: 10px 25px;
+  background: #0ef;
+  border-radius: 40px;
+  font-size: 15px;
+  color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.resume:hover{
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan,0 0 50px cyan,
+  0 0 100px cyan,0 0 200px cyan
+}
 .heading {
   font-size: 2.5rem;
-  color: #333;
+  background: linear-gradient(to right, #5719cb, #19bbdf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 30px;
   text-align: center;
 }
-.heading span {
-  color: #4CAF50;
+.heading span{
+  background: linear-gradient(to right, #cb1919, #867bfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 section {
     padding: 100px 20px;
     scroll-margin-top: 150px;
