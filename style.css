@@ -414,7 +414,7 @@ section {
         padding: 10px;
     }
     .skills-heading { font-size: 2rem; }
-    .skill-container { padding-top: 20rem; }
+    .skill-container { padding-top: 2rem; }
     .project-container {
         width: 250px;
       }
@@ -422,11 +422,14 @@ section {
         margin-top: 5rem;
       }
       .home{
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
       }
   }
 
 @media (max-width: 480px) {
+  .logo{
+    font-size: 1.5rem;
+  }
   .home h1 {
     font-size: 30px;
 }
